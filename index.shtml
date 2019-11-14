@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <title>Hello, world!</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+        <link href="resources/css/plugins.css" type="text/css" rel="stylesheet">
+        <link href="resources/css/style.css" type="text/css" rel="stylesheet">
+        <link href="resources/css/media.css" type="text/css" rel="stylesheet">
+      <script type="text/javascript" src="resources/js/modernizr-2.6.2.min.js"></script>
+  </head>   
+    
+<body>
+<header class="animated" data-animation="fadeInDown" data-animation-delay="100">
+    <div class="container">
+        <div class="logo"><a href="#"><img src="resources/images/logo.png" alt=""></a></div>
+        <div class="header-rt">
+            <a href="#" class="menu-btn" onclick="slideToggle()"><span></span><span></span></a>
+            <ul class="nav" id="nav">
+               <li><a href="#" class="active"><span>BEDROOM</span></a></li>
+                <li><a href="#"><span>LIVING ROOM</span></a></li>
+                <li><a href="#"><span>OFFICE</span></a></li>
+                <li><a href="#"><span>Kitchen</span></a></li>
+                <li><a href="#"><span>Bathroom</span></a></li>
+            </ul>
+            <ul class="head-opts">
+                <li><a href=""><i class="fa-custom-search"></i></a></li>
+                <li><a href=""><i class="fa-custom-heart"></i></a></li>
+                <li><a href="" class="cart"><i class="fa-custom-shopping-cart"></i><span class="mo-of-items">2</span></a></li>
+            </ul>
+        </div>
+        <span class="clear"></span>
+    </div>
+</header>
+    <div class="wrapper">
+<div class="main-container">
+    <div class="container">
+        <div class="breadcrum-link animated" data-animation="fadeIn" data-animation-delay="800">
+            <ul>
+                <li><a href="#"><i class="fa-custom-home"></i></a></li>
+                <li><a href="#">catalog</a></li>
+                <li><a href="#">Sofas</a></li>
+                <li>Beige Nudie Sofa</li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-content">
+        
+        <div id="sidebar" class="sidebar">
+            <div class="title animated"  data-animation="fadeInLeft" data-animation-delay="200"></div>
+            <div class="sidebar__inner">
+                
+                <ul id="side-nav" class="animated"  data-animation="fadeInLeft" data-animation-delay="200">
+                    <li class="current" ><a href="#section-1" ><span>Details</span></a></li>
+                    <li title="Description"><a href="#section-2"><span>Description</span></a></li>
+                    <li title="Review"><a href="#section-3"><span>Review</span></a></li>
+                    <li title="Cusom Tab"><a href="#section-4"><span>Cusom Tab</span></a></li>
+                </ul>
+
+                <ul class="socila-wrap animated"  data-animation="fadeInLeft" data-animation-delay="200">
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="content" class="content">
+           <div id="section-1" class="section">
+               <div class="pro-detail  animated"  data-animation="fadeIn" data-animation-delay="500">
+                   <div class="product-img  animated" data-animation="fadeInUp" data-animation-delay="800">
+                       <figure><img src="resources/images/product1.jpg" alt=""></figure>
+                      
+                   </div>
+                   <div class="product-info  animated"  data-animation="fadeInRight" data-animation-delay="800">
+                       <h3>Nudie Extendable Sofa for 3 persons.</h3>
+                       <div class="user-ratings">
+                           <span class="rating four-star"></span><em>(23)</em>
+                       </div>
+                       <div class="price"><span class="old-price"><i class="fa fa-usd" aria-hidden="true"></i><span class="amt">169</span></span><span class="new-price"><i class="fa fa-usd" aria-hidden="true"></i><span class="amt">149</span></span>-</div>
+                       <div class="imp-info">
+                           <ul>
+                               <li><strong>ASSEMBLY:</strong> Carpenter Assembly</li>
+                               <li><strong>WARRANTY:</strong> 12 Months' Warrant</li>
+                           </ul>
+                       </div>
+                       <div class="dispatch-returen-policy">
+                           <ul>
+                                <li>
+                                    <span class="icon"><i class="fa-custom-truck"></i></span>
+                                    <strong>SAME DAY DISPATCH</strong>
+                                </li>
+                                <li>
+                                    <span class="icon"><i class="fa-custom-return"></i></span>
+                                    <strong>EASY - 30 DAY Return Policy</strong>
+                                </li>
+                           </ul>
+                       </div>
+                       <div class="select-pro-color">
+                           <h6>Color:</h6>
+                           <ul>
+                                <li><label class="yellow"><input type="radio" name="select-color"></label></li>
+                                <li><label class="black"><input type="radio" name="select-color"></label></li>
+                                <li><label class="white"><input type="radio" name="select-color"></label></li>
+                           </ul>
+                       </div>
+                       
+                       <div class="spinner">
+                           <button>-</button>
+                           <input type="number" value="1">
+                           <button>+</button>
+                       </div>
+                       <button type="submit" class="primary-btn add-to-cart-btn">Add to Cart</button>
+                   </div>
+                   
+               </div>
+            </div>
+
+        <div id="section-2" class="section">
+            <div class="inner-sec  animated"  data-animation="fadeIn" data-animation-delay="200" >
+            <div class="pro-discr animated" data-animation="fadeInUp" data-animation-delay="300">
+                <div class="pro-discr-img animated" data-animation="fadeInUp" data-animation-delay="600">
+                    <figure>
+                        <img src="resources/images/product2.jpg" alt="">
+                    </figure>
+                </div>
+                <div class="pro-discr-info animated" data-animation="fadeInUp" data-animation-delay="600">
+                    <div class="pro-ttl animated" data-animation="fadeIn" data-animation-delay="800">
+                        <h3 class="animated" data-animation="fadeInUp" data-animation-delay="1000">At vero eos et accusamus et iufto odio dignissimos.</h3>
+                    </div>
+                    <p>At vero eos et accusamus et ludo odio dignissimos ducimus qui blanditiis	praesentium voluptatum deleniti atque corrupti quos dolores et quas molesetias excepturi sint occaecati cupiditate non provident, simitique sunt in culpa qui officia deserunt mollitia animi, id eit laborum et dolorum fuga.</p>
+                    <p>Et harum quidem rerum facilis est et expedita diglinetio. Nam libero tempore, cum soluta nobis eset eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda eft, omnis dolor repellendus.</p>
+                </div>
+            </div>
+            </div>
+            <div class="inner-sec  animated"  data-animation="fadeIn" data-animation-delay="200">
+            <div class="pro-discr full-img-wrap ">
+                <div class="pro-discr-img full-width  animated" data-animation="fadeInLeft" data-animation-delay="200"  >
+                    <figure>
+                        <img src="resources/images/product3.jpg" alt="">
+                    </figure>
+                    <a href="#" class="video-btn  animated" data-animation="fadeInUp" data-animation-delay="800"></a>
+                </div>
+                 <div class="pro-ttl" data-animation="fadeInLeft" data-animation-delay="400">
+                        <h3 class="animated" data-animation="fadeInUp" data-animation-delay="800">At vero eos et accusamus et iufto odio dignissimos.</h3>
+                </div>
+            </div>
+            </div>
+            <div class="inner-sec  animated"  data-animation="fadeIn" data-animation-delay="200">
+            <div class="suggested-acc">
+                <div  class="animated"  data-animation="fadeInDown" data-animation-delay="800">
+                    <h6 class="hor-ttl">Suggested Accomodation</h6>
+                </div>
+                <div class="pro-discr-img full-width animated" data-animation="fadeInLeft" data-animation-delay="200">
+                    <figure><img src="resources/images/product4.jpg" alt=""></figure>
+                    <a href="#" class="download-img animated"  data-animation="fadeInRight" data-animation-delay="800" id="download-pdf"><em class="btn-3"><i class="fa fa-arrow-down" aria-hidden="true"></i></em>DOWNLOAD PDF</a>
+                </div>  
+                <div class="pro-sm-img animated" data-animation="fadeInLeft" data-animation-delay="400">
+                     <figure><img src="resources/images/sm-pro.jpg" alt=""></figure>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div id="section-3" class="section">
+            Section 3
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div id="section-4" class="section">
+            <strong>Section 4</strong>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        </div>
+        
+    
+        
+    </div>
+    <div class="related-product animated"  data-animation="fadeInUp" data-animation-delay="200">
+            <h3>Related produdis</h3>
+            <ul class="product-list">
+                <li>
+                    <a href="#" class="item">
+                        <figure>
+                            <img src="resources/images/related-pro1.png" alt="">
+                        </figure>
+                        <h4>Bamboo fiber gobo</h4>
+                         <div class="price"><span class="old-price"><i class="fa fa-usd" aria-hidden="true"></i><span class="amt">169</span></span><span class="new-price"><i class="fa fa-usd" aria-hidden="true"></i><span class="amt">149</span></span></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="item">
+                        <figure>
+                            <img src="resources/images/related-pro2.png" alt="">
+                        </figure>
+                        <h4>Pearly white gold</h4>
+                         <div class="price"><span class="old-price"><i class="fa fa-usd" aria-hidden="true"></i><span class="amt">169</span></span><span class="new-price"><i class="fa fa-usd" aria-hidden="true"></i><span class="amt">149</span></span></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="item">
+                        <figure>
+                            <img src="resources/images/related-pro3.png" alt="">
+                        </figure>
+                        <h4>Oled ringlight</h4>
+                         <div class="price"><span class="old-price"><i class="fa fa-usd" aria-hidden="true"></i><span class="amt">169</span></span><span class="new-price"><i class="fa fa-usd" aria-hidden="true"></i><span class="amt">149</span></span></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="item">
+                        <figure>
+                            <img src="resources/images/related-pro4.png" alt="">
+                        </figure>
+                        <h4>Bamboo fiber gobo</h4>
+                         <div class="price"><span class="old-price"><i class="fa fa-usd" aria-hidden="true"></i><span class="amt">169</span></span><span class="new-price"><i class="fa fa-usd" aria-hidden="true"></i><span class="amt">149</span></span></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="item">
+                        <figure>
+                            <img src="resources/images/related-pro5.png" alt="">
+                        </figure>
+                        <h4>Pearly white gold</h4>
+                         <div class="price"><span class="old-price"><i class="fa fa-usd" aria-hidden="true"></i><span class="amt">169</span></span><span class="new-price"><i class="fa fa-usd" aria-hidden="true"></i><span class="amt">149</span></span></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="item">
+                        <figure>
+                            <img src="resources/images/related-pro6.png" alt="">
+                        </figure>
+                        <h4>Oled ringlight</h4>
+                         <div class="price"><span class="old-price"><i class="fa fa-usd" aria-hidden="true"></i><span class="amt">169</span></span><span class="new-price"><i class="fa fa-usd" aria-hidden="true"></i><span class="amt">149</span></span></div>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+</div>
+    </div>
+<footer class="animated"  data-animation="fadeInUp" data-animation-delay="300">            
+    <div class="container">
+        <div class="payment-methods">
+            <ul>
+                <li><a href="#"><img src="resources/images/skirll.png" alt=""></a></li>
+                <li><a href="#"><img src="resources/images/paypal.png" alt=""></a></li>
+                <li><a href="#"><img src="resources/images/pay3.png" alt=""></a></li>
+                <li><a href="#"><img src="resources/images/pay4.png" alt=""></a></li>
+                <li><a href="#"><img src="resources/images/visa.png" alt=""></a></li>
+            </ul>
+        
+        </div>
+        <div class="grab-newsletter"><a href="#">Grab Our Newsletter</a></div>
+        <div class="footer-btm">
+            <div class="footer-logo"><a href="#"><img src="resources/images/footer-logo.png" alt=""></a></div>
+            <ul class="footer-nav">
+                <li><a href="#" class="active"><span>BEDROOM</span></a></li>
+                <li><a href="#"><span>LIVING ROOM</span></a></li>
+                <li><a href="#"><span>OFFICE</span></a></li>
+                <li><a href="#"><span>Kitchen</span></a></li>
+                <li><a href="#"><span>Bathroom</span></a></li>
+            </ul>
+            
+            <ul class="socila-wrap">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+            </ul>
+            <span class="clear"></span>
+        </div>
+        <div class="copyright">2017 &copy; Alpha Store.</div>
+    </div>
+</footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="resources/js/plugins.js"></script>
+    <script type="text/javascript" src="resources/js/custom.js"></script>
+    <script>
+        var slideOpen = true;
+        var heightChecked = false;
+        var initHeight = 0;
+
+        function slideToggle() {
+          
+            var mdiv = document.getElementById('nav');
+            if(!heightChecked) {
+                initHeight = mdiv.offsetHeight;
+                heightChecked = true;
+            }
+            if(slideOpen) {
+                slideOpen = false;
+                mdiv.style.height = '0px';
+            }
+            else {
+                slideOpen = true;
+                mdiv.style.height = initHeight + 'px';
+            }
+        }
+    </script>
+</body>
+</html>
